@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProfileService } from 'src/app/services/profile.service';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  cvUrl: any
 
-  constructor() { }
+  constructor(private service: ProfileService) { }
 
   ngOnInit(): void {
+    this.cvUrl = this.service.resumeurl
   }
 
 }
