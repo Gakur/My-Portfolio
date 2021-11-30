@@ -76,27 +76,33 @@ export class ProfileService {
   skillsData: any = [
     {
       'id': '1',
-      'skill': 'ANGULAR'
+      'skill': 'ANGULAR',
+      'progress': '70%'
     },
     {
       'id': '2',
-      'skill': 'PYTHON, JAVA'
+      'skill': 'PYTHON, JAVA',
+      'progress': '80%'
     },
     {
       'id': '3',
-      'skill': 'JAVASCRIPT, JQUERY'
+      'skill': 'JAVASCRIPT, JQUERY',
+      'progress': '65%'
     },
     {
       'id': '4',
-      'skill': 'HTML, CSS'
+      'skill': 'HTML, CSS',
+      'progress': '70%'
     },
     {
       'id': '5',
-      'skill': 'FLASK'
+      'skill': 'FLASK',
+      'progress': '60%'
     },
     {
       'id': '6',
-      'skill': 'DJANGO'
+      'skill': 'DJANGO',
+      'progress': '70%'
     },
   ]
 
