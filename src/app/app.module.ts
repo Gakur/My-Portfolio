@@ -18,6 +18,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { SkillsComponent } from './components/skills/skills.component';
+import { SplitPipe } from './pipes/split.pipe';
 
 const routes: Routes = [
   {
@@ -41,7 +42,8 @@ const config: ExtraOptions =  {
     HomeComponent,
     EducationComponent,
     ProjectsComponent,
-    SkillsComponent
+    SkillsComponent,
+    SplitPipe
   ],
   imports: [
     BrowserModule,
