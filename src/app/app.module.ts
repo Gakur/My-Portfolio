@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
@@ -11,7 +12,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NgxSpinnerModule } from 'node_modules/ngx-spinner';
 import { ContactComponent } from './components/contact/contact.component';
-import { SnotifyModule } from 'ng-snotify';
+import { SnotifyModule, SnotifyService, ToastDefaults } from 'ng-snotify';
 import { HomeComponent } from './components/home/home.component';
 import { EducationComponent } from './components/education/education.component';
 import { ProjectsComponent } from './components/projects/projects.component';
@@ -19,6 +20,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { SkillsComponent } from './components/skills/skills.component';
 import { SplitPipe } from './pipes/split.pipe';
+import { ProfileService } from './services/profile.service';
 
 const routes: Routes = [
   {
@@ -53,10 +55,12 @@ const config: ExtraOptions =  {
     FormsModule,
     HttpClientModule,
     NgxPaginationModule,
-    // BrowserAnimationsModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot(routes, config)
   ],
-  providers: [],
+  providers: [ProfileService,
+  { provide: 'SnotifyToastConfig', useValue: ToastDefaults},
+SnotifyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
