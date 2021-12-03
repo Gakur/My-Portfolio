@@ -14,7 +14,7 @@ export class ProfileService {
       id: 1,
       title: 'PersonalGalApp',
       description: 'A personal gallery application that you display your photos for others to see.',
-      livedemo: 'https://personalgalapp.herokuapp.com/',
+      livedemo: 'https://galleryapp-wk1.herokuapp.com/',
       imgUrl: 'assets/images/gallery.png',
       Tech: 'Python, Django'
     },
@@ -48,7 +48,7 @@ export class ProfileService {
 
     {
       id: 5,
-      title: 'PhotoApp',
+      title: 'Instagram',
       description: 'This is a clone of Instagram website where people share their images and videos for other users to view.',
       livedemo: 'https://instaclone-wk2.herokuapp.com/',
       imgUrl: 'assets/images/photo.png',
@@ -59,7 +59,7 @@ export class ProfileService {
       id: 6,
       title: 'NeiApp',
       description: 'This is a web application that allows you to be in the loop about everything happening in your neighborhood.',
-      livedemo: 'https://neighbourhood-wk5.herokuapp.com/',
+      livedemo: 'https://neighbourhood-7.herokuapp.com/all-hoods/',
       imgUrl: 'assets/images/nei.png',
       Tech: 'Django and Python'
     },

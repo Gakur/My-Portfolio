@@ -8,8 +8,8 @@ import { ProfileService } from 'src/app/services/profile.service';
 })
 export class AboutComponent implements OnInit {
 
-  about1: any
-  about2: any
+  about1: any;
+  about2: any;
 
   constructor(private service: ProfileService) { }
 
