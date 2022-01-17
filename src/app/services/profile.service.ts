@@ -65,13 +65,13 @@ export class ProfileService {
     },
   ]
   about2 = `Software Developer with a great touch to code.
-  Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
+  Iam passionate about creating quality resources that empower others to improve their social and tech skills.
   Majoring in Angular, Javascript, Html and Bootstrap for front-end designs.
   And Flask , Django for back-end.Also have a good understanding of:
-  Psql Databases, MySQL, Firebase,Python and Jquery`
+  Psql Databases, MySQL, Firebase,Python and Jquery.`
 
   about = "Fell in love with errors.I like debugging and solving errors."
-  resumeurl = "https://drive.google.com/file/d/11lp9-JEqL8vT7Qd0T_EC4zhJSVN_BP0V/view?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/1pSDD8xNnmZP0Y3M19f77m5Tu8GuMYTrT/view?usp=sharing"
 
   skillsData: any = [
     {
@@ -111,7 +111,6 @@ export class ProfileService {
   }
 
   getProjects(): Observable <any> {
-    // return this.http.get(this.baseUrl + 'skills');
     return this.projects;
   }
 }
