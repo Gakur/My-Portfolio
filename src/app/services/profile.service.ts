@@ -71,7 +71,7 @@ export class ProfileService {
   Psql Databases, MySQL, Firebase,Python and Jquery.`
 
   about = "Fell in love with errors.I like debugging and solving errors."
-  resumeurl = "https://drive.google.com/file/d/1pSDD8xNnmZP0Y3M19f77m5Tu8GuMYTrT/view?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/1uuO0BX2jCzPAJHCq91zIIQXaj4-UPbat/view?usp=sharing"
 
   skillsData: any = [
     {
