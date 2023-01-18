@@ -64,13 +64,11 @@ export class ProfileService {
       Tech: 'Django and Python'
     },
   ]
-  about2 = `Software Developer with a great touch to code.
+  about2 = `
   Iam passionate about creating quality resources that empower others to improve their social and tech skills.
-  Majoring in Angular, Javascript, Html and Bootstrap for front-end designs.
-  And Flask , Django for back-end.Also have a good understanding of:
-  Psql Databases, MySQL, Firebase,Python and Jquery.`
+  `
 
-  about = "Fell in love with errors.I like debugging and solving errors."
+  about = "Certified Software Developer and a DevOps Engineer."
   resumeurl = "https://drive.google.com/file/d/1uuO0BX2jCzPAJHCq91zIIQXaj4-UPbat/view?usp=sharing"
 
   skillsData: any = [
