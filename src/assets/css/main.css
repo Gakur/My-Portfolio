@@ -31,7 +31,7 @@
 .navbar .navbar-nav > a.btn.dropdown-toggle:focus,
 .show >
 .navbar .navbar-nav > a.btn.dropdown-toggle:hover {
-  background-color: rgb(19, 106, 150);
+  background-color: rgb(98, 19, 150);
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -103,7 +103,7 @@ fieldset[disabled]
 
 .btn.btn-link,
 .navbar .navbar-nav > a.btn.btn-link {
-  color: #888;
+  color: rgb(136, 136, 136);
 }
 
 .btn.btn-link:hover, .btn.btn-link:focus, .btn.btn-link:active,
